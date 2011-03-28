@@ -41,8 +41,6 @@ function readLangCookie() {
 var AvailableLanguages =
 {
 	en:'English',
-	"zh-cn":'Chinese Simplified',
-	"zh-tw":'Chinese Traditional',
 	fr:'Français',
 };
 
