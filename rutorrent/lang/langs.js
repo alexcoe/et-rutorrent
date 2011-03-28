@@ -1,4 +1,4 @@
-﻿/*
+ /*
  * WebUI - The WEB interface for uTorrent - http://www.utorrent.com
  * NO COPYCATS of language update
  * 
@@ -43,26 +43,10 @@ var AvailableLanguages =
 	en:'English',
 	"zh-cn":'Chinese Simplified',
 	"zh-tw":'Chinese Traditional',
-	cs:'Český',
-	da:'Danske',
-	nl:'Nederlands',
-	fi:'Suomi',
 	fr:'Français',
-	de:'German',
-	hu:'Magyar',
-	it:'Italiano',
-	lv:'Latvijas',
-	pl:'Polski',
-	pt:'Português',
-	ru:'Русский',
-	sr:'Српски',
-	sk:'Slovenský',
-	es:'Español',
-	uk:'Український',
-	tr:'Türk'
 };
 
-DefaultLanguage = 'en';
+DefaultLanguage = 'fr';
 
 function GetActiveLanguage()
 {
