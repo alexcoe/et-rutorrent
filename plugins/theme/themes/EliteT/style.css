@@ -273,10 +273,10 @@ div#t div.TB_Separator {
     width: 1px;
 }
 div#t div#add {
-    background: url("../images/toolbar.png") no-repeat scroll -24px center transparent;
+    background: url("../images/add.png") no-repeat scroll 0 center transparent;
 }
 div#t div#create {
-    background: url("../images/toolbar.png") no-repeat scroll -48px center transparent;
+    background: url("../images/create.png") no-repeat scroll 0 center transparent;
 }
 div#t div#remove {
     background: url("../images/toolbar.png") no-repeat scroll -72px center transparent;
@@ -300,13 +300,13 @@ div#t div#search {
     background: url("../images/toolbar.png") no-repeat scroll -216px center transparent;
 }
 div#t div#rss {
-    background: url("../images/toolbar.png") no-repeat scroll -240px center transparent;
+    background: url("../images/rss.png") no-repeat scroll 0 center transparent;
 }
 div#t div#setting {
-    background: url("../images/toolbar.png") no-repeat scroll -264px center transparent;
+    background: url("../images/options.png") no-repeat scroll 0 center transparent;
 }
 div#t div#help {
-    background: url("../images/quest.gif") no-repeat scroll 0 center transparent;
+    background: url("../images/help.png") no-repeat scroll 0 center transparent;
 }
 #rc {
     float: right;
