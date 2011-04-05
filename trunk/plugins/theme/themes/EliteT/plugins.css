@@ -1,10 +1,6 @@
 .exconsole, .console, .starterConsole {background: #333333}
 .cCell {color: black}
-#meter-disk-value { float: left; border: 1px inset #1b1b1b; border-bottom: none; background: #96CE00 url(./images/headers.png) repeat-x 0px -138px;}
-#meter-disk-text { color:#fff;text-shadow:0px 0px 2px #000;position: relative; text-align: left; float: left; width: 0px; height: 0px; overflow: visible; left: 40%; font-size: 11px; font-family:inherit; z-index: 1; }
-#meter-disk-holder { width: 100px; height: 16px; line-height: 16px; border-right: none; padding-left: 25px;margin-left: 0px; background: url(./images/status_icons.png) no-repeat 3px -336px;
-}
-#meter-disk-td { background: url(./images/hd.png) 5px no-repeat; }
+
 
 #qmeter-disk-value { float: left; border: 1px inset #1b1b1b; border-bottom: none; background: #96CE00 url(./images/headers.png) repeat-x 0px -138px;}
 #qmeter-disk-text { color:#fff;text-shadow:0px 0px 2px #000;position: relative; text-align: left; float: left; width: 0px; height: 0px; overflow: visible; left: 40%; font-size: 11px; font-family:inherit; z-index: 1; }
@@ -523,3 +519,36 @@ div#CatList ul li.RSSGroup {
     background-position: 4px -239px;
 }
 /* ----------------------------- plugin css ----------------------------- */
+
+
+
+/* ----------------------------- plugin Espace DD ----------------------------- */
+#meter-disk-value {
+    border-color: #BBBBBB #BBBBBB -moz-use-text-color;
+    border-style: inset inset none;
+    border-width: 1px 1px medium;
+    float: left;
+}
+#meter-disk-text {
+    float: left;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    height: 0;
+    left: 40%;
+    overflow: visible;
+    position: relative;
+    text-align: left;
+    width: 0;
+    z-index: 1;
+}
+#meter-disk-holder {
+    border-right: 1px solid #A0A0A0;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 25px;
+    width: 100px;
+}
+#meter-disk-td {
+    background: url("./images/disk.gif") no-repeat scroll 5px 50% transparent;
+}
+/* ----------------------------- Fin    Espace DD ----------------------------- */
