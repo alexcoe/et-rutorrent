@@ -1,6 +1,6 @@
 /*
- *  Oblivion skin for ruTorrent
- *  Author: LesBleus
+ *  Oblivion skin edit for skin EliteT
+ *  Author: LesBleus edit EliteT
  */ 
 
 plugin.oblivionAllDone = plugin.allDone;
