@@ -1013,16 +1013,19 @@ textarea {
     padding: 2px 21px;
 }
 div#tadd-header {
-    background-image: url("./images/world.gif");
+    background-image: url("./images/world.gif");    background-color: #1F3957;
+
 }
 div#tadd {
-    display: none;
+    display: none;    
     height: 260px;
     left: 100px;
     margin: 0 auto;
     position: absolute;
     top: 100px;
     width: 380px;
+    background: #CFDEEF;
+
 }
 div#tadd label {
     float: left;
