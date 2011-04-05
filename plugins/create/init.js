@@ -212,7 +212,7 @@ plugin.onLangLoaded = function()
 				"<fieldset>"+
 					"<legend>"+theUILang.TorrentProperties+"</legend>"+
                                	               "<label>"+theUILang.Trackers+": </label>"+
-					"<textarea id='trackers' name='trackers'></textarea><br/>"+
+					"<textarea id='trackers' name='trackers'>http://elite-tracker.net/announce.php</textarea><br/>"+
        	                               	       "<label>"+theUILang.Comment+": </label>"+
                 	               	"<input type='text' id='comment' name='comment' class='TextboxLarge'/><br/>"+
 					pieceSize+	
