@@ -524,11 +524,14 @@ div#CatList ul li.RSSGroup {
 
 /* ----------------------------- plugin Espace DD ----------------------------- */
 #meter-disk-value {
-    border-color: #BBBBBB #BBBBBB -moz-use-text-color;
+    border-color: #1F3957 #1F3957 -moz-use-text-color
     border-style: inset inset none;
     border-width: 1px 1px medium;
     float: left;
+    margin-left: 23px;
+    margin-top: 12px;
 }
+
 #meter-disk-text {
     float: left;
     font-family: Tahoma,Arial,Helvetica,sans-serif;
@@ -540,6 +543,7 @@ div#CatList ul li.RSSGroup {
     text-align: left;
     width: 0;
     z-index: 1;
+    margin-top: 13px;
 }
 #meter-disk-holder {
     border-right: 1px solid #A0A0A0;
