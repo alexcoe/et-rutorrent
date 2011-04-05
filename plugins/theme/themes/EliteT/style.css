@@ -11,7 +11,7 @@ form {
     margin: 0;
 }
 div#preload {
-    background-image: url("../images/pnl_close.gif");
+    background-image: url("./images/pnl_close.gif");
     display: none;
     height: 0;
     width: 0;
@@ -75,7 +75,7 @@ div.fxcaret {
     overflow: auto;
 }
 div.dlg-header {
-    background: url("../images/blank.gif") no-repeat scroll 4px center #F0F0F0;
+    background: url("./images/blank.gif") no-repeat scroll 4px center #F0F0F0;
     border-bottom: 1px solid #909090;
     font-family: Tahoma,Arial,Helvetica,sans-serif;
     font-size: 11px;
@@ -84,7 +84,7 @@ div.dlg-header {
     padding: 2px 24px;
 }
 a.dlg-close:link, a.dlg-close:visited {
-    background: url("../images/close.png") no-repeat scroll left center transparent;
+    background: url("./images/close.png") no-repeat scroll left center transparent;
     border: 0 none;
     float: right;
     height: 14px;
@@ -92,14 +92,14 @@ a.dlg-close:link, a.dlg-close:visited {
     width: 14px;
 }
 a.dlg-close:hover {
-    background: url("../images/close.png") no-repeat scroll -14px center transparent;
+    background: url("./images/close.png") no-repeat scroll -14px center transparent;
     border: 0 none;
     float: right;
     height: 14px;
     width: 14px;
 }
 a.dlg-close:active {
-    background: url("../images/close.png") no-repeat scroll -28px center transparent;
+    background: url("./images/close.png") no-repeat scroll -28px center transparent;
     border: 0 none;
     float: right;
     height: 14px;
@@ -185,10 +185,10 @@ ul.CMenu li hr {
     margin: 0;
 }
 ul.CMenu li a.exp {
-    background: url("../images/menuexp.gif") no-repeat scroll 140px center transparent;
+    background: url("./images/menuexp.gif") no-repeat scroll 140px center transparent;
 }
 ul.CMenu li a.sel {
-    background: url("../images/menusel.gif") no-repeat scroll 4px center transparent;
+    background: url("./images/menusel.gif") no-repeat scroll 4px center transparent;
 }
 ul.CMenu li a:hover {
     background-color: #CFDEEF;
@@ -240,7 +240,7 @@ span.htkey {
     z-index: 1000;
 }
 div#t {
-    background: url("../images/t_bg.png") repeat-x scroll center center #F0F0F0;
+    background: url("./images/t_bg.png") repeat-x scroll center center #F0F0F0;
     border-bottom: 1px solid #D0D0D0;
     height: 36px;
     line-height: 36px;
@@ -253,7 +253,7 @@ div#t a {
     padding: 3px;
 }
 div#t a:hover {
-    background: url("../images/tb_bg.gif") no-repeat scroll center center transparent;
+    background: url("./images/tb_bg.gif") no-repeat scroll center center transparent;
 }
 div#t a:active {
     padding: 4px 2px 2px 4px;
@@ -273,46 +273,46 @@ div#t div.TB_Separator {
     width: 1px;
 }
 div#t div#add {
-    background: url("../images/add.png") no-repeat scroll 0 center transparent;
+    background: url("./images/add.png") no-repeat scroll 0 center transparent;
 }
 div#t div#create {
-    background: url("../images/create.png") no-repeat scroll 0 center transparent;
+    background: url("./images/create.png") no-repeat scroll 0 center transparent;
 }
 div#t div#remove {
-    background: url("../images/effacer.png") no-repeat scroll 0 center transparent ;
+    background: url("./images/effacer.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#start {
-    background: url("../images/play.png") no-repeat scroll 0 center transparent;
+    background: url("./images/play.png") no-repeat scroll 0 center transparent;
 }
 div#t div#pause {
-    background: url("../images/pause.png") no-repeat scroll 0 center transparent;
+    background: url("./images/pause.png") no-repeat scroll 0 center transparent;
 }
 div#t div#stop {
-    background: url("../images/stop.png") no-repeat scroll 0 center transparent ;
+    background: url("./images/stop.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#moveu {
-    background: url("../images/toolbar.png") no-repeat scroll 0 center transparent ;
+    background: url("./images/toolbar.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#moved {
-    background: url("../images/toolbar.png") no-repeat scroll 0 center transparent ;
+    background: url("./images/toolbar.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#search {
-    background: url("../images/toolbar.png") no-repeat scroll 0 center transparent ;
+    background: url("./images/search.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#rss {
-    background: url("../images/rss.png") no-repeat scroll 0 center transparent;
+    background: url("./images/rss.png") no-repeat scroll 0 center transparent;
 }
 div#t div#setting {
-    background: url("../images/options.png") no-repeat scroll 0 center transparent;
+    background: url("./images/options.png") no-repeat scroll 0 center transparent;
 }
 div#t div#help {
-    background: url("../images/help.png") no-repeat scroll 0 center transparent;
+    background: url("./images/help.png") no-repeat scroll 0 center transparent;
 }
 #rc {
     float: right;
 }
 #go {
-    background: url("../images/go.gif") no-repeat scroll 0 center transparent;
+    background: url("./images/go.gif") no-repeat scroll 0 center transparent;
 }
 #query {
     margin-top: 4px;
@@ -322,7 +322,7 @@ div#t a#mnu_go {
     padding: 3px;
 }
 div#t #ind {
-    background: url("../images/ajax-loader.gif") no-repeat scroll 0 center transparent;
+    background: url("./images/ajax-loader.gif") no-repeat scroll 0 center transparent;
     cursor: default;
     line-height: 26px;
     margin-right: 2px;
@@ -364,7 +364,7 @@ input.TextboxVShort {
     width: 30px;
 }
 input.Button {
-    background: url("../images/h.gif") repeat-x scroll center bottom #F0F0F0;
+    background: url("./images/h.gif") repeat-x scroll center bottom #F0F0F0;
     border: 1px solid #A0A0A0;
     height: 19px;
     padding: 1px 10px;
@@ -411,7 +411,7 @@ div#CatList ul li.sel {
     border-color: #CFDEEF;
 }
 #-_-_-all-_-_-, #-_-_-dls-_-_-, #-_-_-com-_-_-, #-_-_-act-_-_-, #-_-_-iac-_-_-, #-_-_-err-_-_- {
-    background-image: url("../images/tstatus.png");
+    background-image: url("./images/tstatus.png");
 }
 #-_-_-all-_-_- {
     background-position: 4px -174px;
@@ -432,15 +432,15 @@ div#CatList ul li.sel {
     background-position: 4px -94px;
 }
 div#CatList ul li.RSS {
-    background-image: url("../images/tstatus.png");
+    background-image: url("./images/tstatus.png");
     background-position: 4px -206px;
 }
 div#CatList ul li.disRSS {
-    background-image: url("../images/tstatus.png");
+    background-image: url("./images/tstatus.png");
     background-position: 4px -190px;
 }
 .stable-icon {
-    background-image: url("../images/tstatus.png");
+    background-image: url("./images/tstatus.png");
     background-repeat: no-repeat;
 }
 .Status_Down {
@@ -522,7 +522,7 @@ div#stg_c {
     overflow: hidden;
 }
 div#stg-header {
-    background-image: url("../images/settings.gif");
+    background-image: url("./images/settings.gif");
     background-color: #1F3957;
     color: white;
 }
@@ -575,7 +575,7 @@ div.algnright {
     width: 100%;
 }
 .lm li {
-    background: url("../images/bul.gif") no-repeat scroll left center transparent;
+    background: url("./images/bul.gif") no-repeat scroll left center transparent;
     line-height: 16px !important;
     margin: 0 5px;
     padding: 0 12px;
@@ -588,13 +588,13 @@ div.algnright {
     margin: 0 0 0 9px;
 }
 .lm li.first {
-    background: url("../images/bul_f.gif") no-repeat scroll left bottom transparent;
+    background: url("./images/bul_f.gif") no-repeat scroll left bottom transparent;
 }
 .lm li.last {
-    background: url("../images/bul_l.gif") no-repeat scroll left top transparent;
+    background: url("./images/bul_l.gif") no-repeat scroll left top transparent;
 }
 .lm li div.toggle {
-    background: url("../images/exp.gif") no-repeat scroll center center transparent;
+    background: url("./images/exp.gif") no-repeat scroll center center transparent;
     cursor: pointer;
     float: left;
     height: 10px;
@@ -852,7 +852,7 @@ div#dlgLabel {
     width: 250px;
 }
 div#dlgLabel div.dlg-header {
-    background-image: url("../images/label.gif");
+    background-image: url("./images/label.gif");
 }
 div#dlgLabel div.content {
     line-height: 16px;
@@ -871,7 +871,7 @@ div#padd {
     width: 250px;
 }
 div#padd div.dlg-header {
-    background-image: url("../images/props.gif");
+    background-image: url("./images/props.gif");
 }
 div#padd div.content {
     line-height: 16px;
@@ -890,7 +890,7 @@ div#dlgAbout {
     width: 250px;
 }
 div#dlgAbout div.dlg-header {
-    background-image: url("../images/about.gif");
+    background-image: url("./images/about.gif");
 }
 div#dlgAbout div.content {
     margin: 5px;
@@ -964,7 +964,7 @@ div#yesnoDlg {
     background-color: #CFDEEF;
 }
 div#yesnoDlg div.dlg-header {
-    background-image: url("../images/error.gif");
+    background-image: url("./images/error.gif");
     background-color: #1F3957;
     color: white;
 }
@@ -978,7 +978,7 @@ div#yesnoDlg div.content input {
     margin-top: 5px;
 }
 span#loadimg {
-    background: url("../images/ajax-loader.gif") no-repeat scroll center center transparent;
+    background: url("./images/ajax-loader.gif") no-repeat scroll center center transparent;
     padding: 20px;
 }
 .webkit div#msg {
@@ -988,10 +988,10 @@ span#loadimg {
     position: fixed;
 }
 .Icon_File {
-    background: url("../images/file.gif") no-repeat scroll left center transparent;
+    background: url("./images/file.gif") no-repeat scroll left center transparent;
 }
 .Icon_Dir {
-    background: url("../images/dir.gif") no-repeat scroll left center transparent;
+    background: url("./images/dir.gif") no-repeat scroll left center transparent;
 }
 div#HDivider:hover, div#VDivider:hover {
     background: none repeat scroll 0 0 #A0A0A0;
@@ -1003,7 +1003,7 @@ textarea {
     -moz-user-focus: normal;
     -moz-user-input: enabled;
     -moz-user-select: none;
-    background: url("../images/pnl_open.gif") no-repeat scroll 2px 50% #1F3957;
+    background: url("./images/pnl_open.gif") no-repeat scroll 2px 50% #1F3957;
     color: white;
     cursor: pointer;
     font-family: Tahoma,Arial,Helvetica,sans-serif;
@@ -1013,7 +1013,7 @@ textarea {
     padding: 2px 21px;
 }
 div#tadd-header {
-    background-image: url("../images/world.gif");
+    background-image: url("./images/world.gif");
 }
 div#tadd {
     display: none;
@@ -1062,10 +1062,10 @@ div#tadd input {
     line-height: 24px;
 }
 #st_up {
-    background: url("../images/status_up.gif") no-repeat scroll 6px 50% transparent;
+    background: url("./images/status_up.gif") no-repeat scroll 6px 50% transparent;
 }
 #st_down {
-    background: url("../images/status_down.gif") no-repeat scroll 6px 50% transparent;
+    background: url("./images/status_down.gif") no-repeat scroll 6px 50% transparent;
 }
 #st_up td:first-child .sthdr {
     margin-left: 25px;
