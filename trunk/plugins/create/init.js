@@ -220,7 +220,7 @@ plugin.onLangLoaded = function()
 				"<fieldset>"+
 					"<legend>"+theUILang.Other+"</legend>"+
 					"<label id='nomargin'><input type='checkbox' name='start_seeding' id='start_seeding'/>"+theUILang.StartSeeding+"</label>"+
-					"<label id='nomargin'><input type='checkbox' name='private' id='private'/>"+theUILang.PrivateTorrent+"</label><br/>"+
+					"<label id='nomargin'><input type='checkbox' name='private' id='private' checked='checked'/>"+theUILang.PrivateTorrent+"</label><br/>"+
 				"</fieldset>"+
 			"</div>"+
 			"<div class='aright buttons-list'><input type='button' id='torrentCreate' value='"+theUILang.torrentCreate+"' class='Button' onclick='theWebUI.checkCreate()'/><input type='button' class='Cancel Button' value='"+theUILang.Cancel+"'/></div>");
