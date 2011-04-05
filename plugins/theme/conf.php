@@ -1,5 +1,5 @@
 <?php
 
-$defaultTheme = ""; // May be "", "Oblivion", "Dark", "Blue" or "Acid"
+$defaultTheme = "EliteT"; // May be "", "Oblivion", "Dark", "Blue" or "Acid"
 
 ?>
