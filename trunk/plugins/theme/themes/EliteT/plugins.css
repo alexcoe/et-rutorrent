@@ -2,16 +2,6 @@
 .cCell {color: black}
 
 
-#qmeter-disk-value { float: left; border: 1px inset #1b1b1b; border-bottom: none; background: #96CE00 url(./images/headers.png) repeat-x 0px -138px;}
-#qmeter-disk-text { color:#fff;text-shadow:0px 0px 2px #000;position: relative; text-align: left; float: left; width: 0px; height: 0px; overflow: visible; left: 40%; font-size: 11px; font-family:inherit; z-index: 1; }
-#qmeter-disk-holder { width: 100px; height: 16px; line-height: 16px; border-right: none; padding-left: 25px;margin-left: 0px; background: url(./images/status_icons.png) no-repeat 3px -336px;
-}
-#qmeter-disk-td { background: url(./images/hd.png) 5px no-repeat; }
-
-#meter-cpu-text { position: absolute; left: 65px; top: 0px;color:#fff;text-shadow:0px 0px 2px #000;font-size: 11px; font-family: inherit; }
-#meter-cpu-holder { width: 100px; height: 16px; line-height: 16px; border-right: none; margin-left: 0px;padding-left: 25px;background: url(./images/status_icons.png) no-repeat 3px -320px; }
-#meter-cpu-td {}
-
 div.graph_tab {color:#000;border-color: #000;}
 div#tcreate div.dlg-header {background: #181818 url(./images/dlg-toolbars.gif) no-repeat 0px -24px; border-bottom: 1px solid #333333;text-shadow:0px -1px 0px #000;}
 div#dlgAddRSS {background-color: #222222; border-top: 1px solid #333; border-right: 1px solid #1b1b1b; border-left: 1px solid #1b1b1b; border-bottom: 1px solid #000000;}
@@ -555,5 +545,27 @@ div#CatList ul li.RSSGroup {
 #meter-disk-td {
     background: url("./images/dd.gif") no-repeat scroll 5px 50% transparent;
 }
-
 /* ----------------------------- Fin    Espace DD ----------------------------- */
+
+
+
+/* ----------------------------- plugin CPU ----------------------------- */
+#meter-cpu-text {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    left: 40px;
+    position: absolute;
+    top: 0;
+}
+#meter-cpu-holder {
+    border-right: 1px solid #A0A0A0;
+    height: 19px;
+    line-height: 19px;
+    margin-left: 25px;
+    width: 100px;
+}
+#meter-cpu-td {
+    background: url("./images/cpu.gif") no-repeat scroll 5px 50% transparent;
+}
+
+/* ----------------------------- Fin CPU ----------------------------- */
