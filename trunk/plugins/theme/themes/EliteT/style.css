@@ -279,25 +279,25 @@ div#t div#create {
     background: url("../images/create.png") no-repeat scroll 0 center transparent;
 }
 div#t div#remove {
-    background: url("../images/toolbar.png") no-repeat scroll -72px center transparent;
+    background: url("../images/effacer.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#start {
-    background: url("../images/toolbar.png") no-repeat scroll -96px center transparent;
+    background: url("../images/play.png") no-repeat scroll 0 center transparent;
 }
 div#t div#pause {
-    background: url("../images/toolbar.png") no-repeat scroll -120px center transparent;
+    background: url("../images/pause.png") no-repeat scroll 0 center transparent;
 }
 div#t div#stop {
-    background: url("../images/toolbar.png") no-repeat scroll -144px center transparent;
+    background: url("../images/stop.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#moveu {
-    background: url("../images/toolbar.png") no-repeat scroll -168px center transparent;
+    background: url("../images/toolbar.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#moved {
-    background: url("../images/toolbar.png") no-repeat scroll -192px center transparent;
+    background: url("../images/toolbar.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#search {
-    background: url("../images/toolbar.png") no-repeat scroll -216px center transparent;
+    background: url("../images/toolbar.png") no-repeat scroll 0 center transparent ;
 }
 div#t div#rss {
     background: url("../images/rss.png") no-repeat scroll 0 center transparent;
