@@ -903,7 +903,7 @@ div#dlgHelp {
     background-color: #CFDEEF;
 }
 div#dlgHelp div.dlg-header {
-    background-image: url("../images/about.gif");
+    background-image: url("./images/about.gif");
     background-color: #1F3957;
     color: white;
 }
@@ -917,7 +917,7 @@ div#dlgProps {
     width: 395px;
 }
 div#dlgProps div.dlg-header {
-    background-image: url("../images/props.gif");
+    background-image: url("./images/props.gif");
 }
 div#dlgProps div.content {
     margin-left: 5px;
